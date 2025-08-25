@@ -17,14 +17,15 @@ Model Building:
   Train-Test split
   Training ML/DL models
 Model Evaluation:
-  
-Model	            Accuracy	Precision	Recall	F1-score
-0	KNN            	0.940311	0.524178	0.411854	0.461277
-1	Log Reg	        0.946912	0.666667	0.288754	0.402969
-2	Naive Bayes	    0.916737	0.401055	0.693009	0.508078
-3	Decision Tree  	0.954644	0.691974	0.484802	0.570152
-4	Random forest	  0.955116	0.686475	0.509119	0.584642
-5	SVM           	0.945875  0.689189	0.232523	0.347727
+
+| Model               | Accuracy | Precision | Recall  | F1-score |
+|---------------------|----------|-----------|---------|----------|
+| KNN                 | 0.9403   | 0.5242    | 0.4119  | 0.4613   |
+| Logistic Regression | 0.9469   | 0.6667    | 0.2888  | 0.4030   |
+| Naive Bayes         | 0.9167   | 0.4011    | 0.6930  | 0.5081   |
+| Decision Tree       | 0.9546   | 0.6920    | 0.4848  | 0.5702   |
+| Random Forest       | 0.9551   | 0.6865    | 0.5091  | 0.5846   |
+| SVM                 | 0.9459   | 0.6892    | 0.2325  | 0.3477   |
 
 ### Results and Observation
 Random Forest performed the best overall with highest Accuracy (95.5%) and balanced Precision-Recall.
