@@ -2,21 +2,25 @@
 This project focuses on predicting stock prices using Machine Learning techniques. Financial markets are highly dynamic and influenced by various factors, making price prediction a challenging task. In this project, I analyze historical stock market data and build predictive models to forecast future stock prices.The goal is to provide insights that can assist investors in making informed decisions
 
 ### Technologies Used
-Programming Language: Python
+**Programming Language**: Python
 **Libraries**: Pandas, NumPy, Matplotlib, Scikit-learn
-Visualization: Matplotlib, Seaborn
-ML model: Random forest, KNN, SVM, Naive Bayes, Decision Tree
+**Visualization**: Matplotlib, Seaborn
+**ML model**: Random forest, KNN, SVM, Naive Bayes, Decision Tree
 
 ## Key steps
-Data: Excel
-Data Cleaning & Preprocessing:
-  Handling missing values
-  Outlier treatment
-  Normalization & scaling
-Model Building:
-  Train-Test split
-  Training ML/DL models
-Model Evaluation:
+**Data**
+  - CSV
+**Data Cleaning & Preprocessing**
+  - Handling missing values
+  - Outlier treatment
+  - Normalization & scaling
+ **Exploratory Data Analysis (EDA)**  
+   - Used **Seaborn** and **Matplotlib** for data visualization  
+   - Analyzed correlations, distributions, and outliers
+**Model Building**
+   - Train-Test split
+   - Training ML/DL models
+### Model Evaluation
 
 | Model               | Accuracy | Precision | Recall  | F1-score |
 |---------------------|----------|-----------|---------|----------|
@@ -28,10 +32,10 @@ Model Evaluation:
 | SVM                 | 0.9459   | 0.6892    | 0.2325  | 0.3477   |
 
 ### Results and Observation
-Random Forest performed the best overall with highest Accuracy (95.5%) and balanced Precision-Recall.
-Naive Bayes had the highest Recall but lower Precision.
-Logistic Regression and SVM showed decent performance but struggled with Recall.
-Decision Tree also performed strongly, slightly behind Random Forest.
+- Random Forest performed the best overall with the highest Accuracy (95.5%) and balanced Precision-Recall.
+- Naive Bayes had the highest Recall but lower Precision.
+- Logistic Regression and SVM showed decent performance but struggled with Recall.
+- Decision Tree also performed strongly, slightly behind Random Forest.
 
 
 
