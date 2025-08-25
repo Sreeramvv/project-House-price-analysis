@@ -3,7 +3,7 @@ This project focuses on predicting stock prices using Machine Learning technique
 
 ### Technologies Used
 Programming Language: Python
-Libraries: Pandas, NumPy, Matplotlib, Scikit-learn
+**Libraries**: Pandas, NumPy, Matplotlib, Scikit-learn
 Visualization: Matplotlib, Seaborn
 ML model: Random forest, KNN, SVM, Naive Bayes, Decision Tree
 
